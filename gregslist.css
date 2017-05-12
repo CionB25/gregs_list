@@ -1,0 +1,83 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgb(224,224,224);
+}
+.logo {
+  float: left;
+}
+
+.top-nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 15px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.search-section {
+  margin-top: 125px;
+  margin-left: 75px;
+}
+
+.pages-button{
+  border: 1px solid grey;
+  color: black; 
+  padding: 7px;
+}
+
+.pages {
+  margin-top: 30px;
+  margin-left: 75px;
+}
+.page {
+  border: 1px solid grey;
+  color: black; 
+  padding: 7px;
+}
+
+  .listings {
+  margin-top: 30px;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: purple;
+}
+
+.pages > a:link {
+  color: black
+}
